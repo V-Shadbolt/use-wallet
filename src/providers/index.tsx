@@ -83,6 +83,15 @@ const PROVIDERS = new Map<string, Provider>(
       },
     },
     {
+      id: 'uauth',
+      name: 'Unstoppable',
+      type: 'Any',
+      image: Images.Unstoppable,
+      strings: {
+        'your Ethereum wallet': 'Unstoppable',
+      },
+    },
+    {
       id: 'unknown',
       name: 'Unknown',
       type: 'Desktop',
